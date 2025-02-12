@@ -1,9 +1,7 @@
 "use client"
 
-import Link from "next/link"
 import "./globals.css"
 import { Montserrat, Dancing_Script } from "next/font/google"
-import Image from "next/image"
 import { Navbar } from "@/components/Navbar"
 
 const montserrat = Montserrat({

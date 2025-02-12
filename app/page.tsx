@@ -1,14 +1,14 @@
 "use client"
 
-import { Portada } from "./Portada/page"
-import { CountdownSection } from "./CountdownSection/page"
-import { CeremoniayFiesta } from "./Ceremonia/page"
-import { FotosSection } from "./FotosSection/page"
-import { RegalosSection } from "./RegalosSection/page"
-import { InstagramSection } from "./InstagramSection/page"
-import { ConfirmacionSection } from "./ConfirmacionSection/page"
-import { DressCodeSection } from "./DressCodeSection/page"
-import { CancionesSection } from "./Canciones/page"
+import  Portada  from "./Portada/page"
+import  CountdownSection  from "./CountdownSection/page"
+import  CeremoniayFiesta  from "./Ceremonia/page"
+import  FotosSection  from "./FotosSection/page"
+import  RegalosSection  from "./RegalosSection/page"
+import  InstagramSection  from "./InstagramSection/page"
+import  ConfirmacionSection  from "./ConfirmacionSection/page"
+import DressCodeSection from "./DressCodeSection/page"
+import CancionesSection from "./Canciones/page"
 import { Separator } from "@/components/ui/separator"
 
 

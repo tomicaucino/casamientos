@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 
 
-export const CeremoniayFiesta = () => {
+export default function CeremoniayFiesta () {
 
     return (
         <section id="ceremonia" className="px-2 bg-white py-12 grid grid-cols-1 justify-items-center">

@@ -1,7 +1,9 @@
+"use client"
+
 import { motion } from "framer-motion"
 
 
-export const DressCodeSection = () => {
+export default function DressCodeSection () {
 
     return (
         <section className="mx-auto bg-gray-300 p-12 w-full flex justify-center">

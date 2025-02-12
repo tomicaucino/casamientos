@@ -1,7 +1,9 @@
+"use client"
+
 import { motion } from "framer-motion"
 
 
-export const InstagramSection = () => {
+export default function InstagramSection () {
 
     return (
         <section className="mx-auto bg-white px-2 py-12 flex justify-center items-center">

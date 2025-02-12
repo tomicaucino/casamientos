@@ -1,17 +1,13 @@
+"use client"
+
 import Image from "next/image"
 import { motion } from "framer-motion"
 import { Meteors } from "@/components/magicui/meteors"
-import { ChevronDown } from "lucide-react"
 import { useEffect, useState } from "react"
 
-const scrollDown = () => {
-    window.scrollTo({
-      top: window.innerHeight,
-      behavior: "smooth",
-    })
-  }
 
-export const Portada = () => {
+
+export default function Portada () {
     const [scrollY, setScrollY] = useState(0)
 
     useEffect(() => {

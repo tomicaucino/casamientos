@@ -1,3 +1,5 @@
+"use client"
+
 import { cn } from "@/lib/utils"
 import { Marquee } from "@/components/magicui/marquee"
 
@@ -49,7 +51,7 @@ const reviews = [
     );
   };
 
-export const FotosSection = () => {
+export default function FotosSection () {
 
 
     return (

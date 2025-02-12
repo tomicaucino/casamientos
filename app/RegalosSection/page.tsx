@@ -4,7 +4,7 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 import { Popup } from "@/components/popup"
 
-export const RegalosSection = () => {
+export default function RegalosSection () {
     const [isPopupOpen, setIsPopupOpen] = useState(false)
 
     const openPopup = () => setIsPopupOpen(true)

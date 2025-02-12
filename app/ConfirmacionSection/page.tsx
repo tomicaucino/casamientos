@@ -1,5 +1,6 @@
+"use client"
 
-export const ConfirmacionSection = () => {
+export default function ConfirmacionSection () {
 
     return (
         <section id="asistencia" className="flex justify-center px-2 py-12 bg-white">
